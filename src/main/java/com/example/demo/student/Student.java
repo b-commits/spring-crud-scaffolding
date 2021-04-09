@@ -23,7 +23,7 @@ public class Student {
     private String email;
     private LocalDate dob;
     /**
-     * Doesn't get serialized.
+     * Won't get serialized.
      */
     @Transient
     private Integer age;
